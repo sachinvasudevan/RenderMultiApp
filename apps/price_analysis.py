@@ -15,14 +15,12 @@ Created on Mon May  1 13:00:41 2023
 #import packages to create app
 import dash
 import dash_html_components as html
-import dash_labs as dl
 import dash_core_components as dcc
 import dash_bootstrap_components as dbc
 from dash.dependencies import Input, Output
 
 import plotly.express as px
 import pandas as pd
-import numpy as np
 
 df= pd.read_csv("C:/Users/sachi/Documents/sem2/DataVisualization/Individual/ShoppingMultipage/shopping_data.csv")
 mall_name= df['shopping_mall'].unique()
