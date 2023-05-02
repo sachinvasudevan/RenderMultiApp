@@ -22,7 +22,7 @@ from dash.dependencies import Input, Output
 import plotly.express as px
 import pandas as pd
 
-df= pd.read_csv("C:/Users/sachi/Documents/sem2/DataVisualization/Individual/ShoppingMultipage/shopping_data.csv")
+df= pd.read_csv("shopping_data.csv")
 mall_name= df['shopping_mall'].unique()
 month_name= df['month'].unique()
 gender= df['gender'].unique()
