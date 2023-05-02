@@ -7,7 +7,7 @@ import dash_html_components as html
 from dash.dependencies import Input, Output, State
 import dash_bootstrap_components as dbc
 
-df= pd.read_csv("C:/Users/sachi/Documents/sem2/DataVisualization/Individual/ShoppingMultipage/shopping_data.csv")
+df= pd.read_csv("shopping_data.csv")
 mall_name= df['shopping_mall'].unique()
 payment = ["Credit Card", "Cash", "Debit Card"]
 from app import app
