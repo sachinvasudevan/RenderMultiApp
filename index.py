@@ -15,7 +15,7 @@ import dash_bootstrap_components as dbc
 from app import app
 # import all pages in the app
 from apps import other_analysis, price_analysis, home
-
+server= app.server
 # building the navigation bar
 # https://github.com/facultyai/dash-bootstrap-components/blob/master/examples/advanced-component-usage/Navbars.py
 dropdown = dbc.DropdownMenu(
